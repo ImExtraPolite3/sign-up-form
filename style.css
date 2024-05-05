@@ -1,9 +1,15 @@
+@font-face {
+  font-family: norse-bold;
+  src: url(fonts/Norse-Bold.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 .container-left {
+  position: relative;
   width: 35%;
   height: 100vh;
 }
@@ -11,4 +17,32 @@
 .container-left > img {
   width: 100%;
   height: 100%;
+}
+
+.container-left > div {
+  position: absolute;
+  top: 12%;
+}
+
+.logo {
+  text-align: center;
+  font-family: 'norse-bold';
+  font-size: 6rem;
+  font-weight: lighter;
+  color: white;
+}
+
+.logo > span > img {
+  width: 17%;
+}
+
+.source {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: white;
+}
+
+.source > a {
+  color: white;
 }
