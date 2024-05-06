@@ -17,15 +17,12 @@
   background-size: cover;
 }
 
-.container-left > img {
-  width: 100%;
-  height: 100%;
-}
-
 .container-left > div:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2% 0;
   position: absolute;
   top: 12%;
 }
