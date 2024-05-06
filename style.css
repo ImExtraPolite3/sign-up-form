@@ -9,9 +9,13 @@
   font-family: sans-serif;
 }
 
+.container {
+  display: flex;
+}
+
 .container-left {
   position: relative;
-  width: 35%;
+  width: 150vh;
   height: 100vh;
   background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
@@ -50,4 +54,51 @@
 
 .source > p > a {
   color: white;
+}
+
+.container-right {
+  background-color: #e9e9e9;
+}
+
+
+.container-right-top,
+.container-right-middle,
+.container-right-bottom {
+  padding-left: 50px;
+  padding-right: 150px;
+}
+
+.container-right-top {
+  padding-top: 100px;
+}
+
+.white {
+  background-color: white;
+}
+
+.container-right-top > p,
+.container-right-middle > p {
+  font-size: 1.3rem;
+}
+
+.container-right-middle > p {
+  padding: 20px 0;
+}
+
+.container-right-top > p {
+  padding-bottom: 30px;
+}
+
+.container-right-middle > div {
+  display: flex;
+}
+
+.form-left,
+.form-right {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.6rem;
 }
