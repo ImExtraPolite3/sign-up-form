@@ -99,6 +99,47 @@
   flex-direction: column;
 }
 
+input {
+  width: 300px;
+  font-size: 1rem;
+  padding: 5px 0;
+  margin-bottom: 20px;
+  border: solid #E5E7EB 1px;
+  border-radius: 5px;
+}
+
+.form-left {
+  margin-right: 50px;
+}
+
 label {
   font-size: 0.6rem;
+}
+
+#password:invalid,
+#confirm-password:invalid {
+  border: solid red;
+}
+
+.container-right-bottom {
+  margin-top: 30px;
+}
+
+.container-right-bottom > button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 45px;
+  background-color: #596D48;
+  margin-bottom: 20px;
+}
+
+.container-right-bottom > p > a {
+  color: #596D48;
+  text-decoration: none;
+}
+
+.container-right-middle,
+.container-right-bottom > button {
+  box-shadow: 3px 3px 5px gray;
 }
