@@ -102,9 +102,16 @@ input {
   width: 300px;
   font-size: 1rem;
   padding: 5px 0;
-  margin-bottom: 20px;
   border: solid #E5E7EB 1px;
   border-radius: 5px;
+}
+
+#first-name,
+#email,
+#last-name,
+#phone-number,
+.form-left {
+  margin-bottom: 20px;
 }
 
 .form-left {
@@ -141,4 +148,16 @@ label {
 .container-right-middle,
 .container-right-bottom > button {
   box-shadow: 3px 3px 5px gray;
+}
+
+.invalid-text {
+  display: none;
+}
+
+.show-text {
+  font-size: 0.6rem;
+  margin-bottom: 20px;
+  color: red;
+  display: block;
+  margin-bottom: 0;
 }
